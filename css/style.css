@@ -3,31 +3,31 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 21px;
     font-weight: 300;
+    margin:0;
+    padding: 0;
 }
 
 .container {
-    width: 100%;
-    max-width: 570px;
+    width: 570px;
     margin: 0 auto;
 }
 
-.section1 {
+header {
+    background: #43D;
+    padding: 100px 0;
+}
+
+.about-me {
     background: #99D930;
     min-width: 100%;
+    padding: 100px 0;
 }
 
-.section2 {
+.articles {
     background: #131313;
-
+padding: 100px 0;
 }
 
-.common {
-    margin: 100px 0;
-}
-
-.section3 {
-    background: #99F990;
-}
 
 .bold-text {
     font-weight: 900;
