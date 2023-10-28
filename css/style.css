@@ -74,3 +74,17 @@ a:focus {
     background: #252525;
     color: #fff;
 }
+
+.btn{
+    margin: 30px 0;
+    padding: 15px 25px;
+    background-color: #99D930;
+    border: none;
+    color: #252525;
+}
+
+.btn:hover,
+.btn:focus{
+    background-color: #252525;
+    color: #fff;
+}
