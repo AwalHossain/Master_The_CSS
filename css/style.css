@@ -7,28 +7,6 @@ body {
     padding: 0;
 }
 
-.container {
-    width: 570px;
-    margin: 0 auto;
-}
-
-header {
-    background: #43D;
-    padding: 100px 0;
-}
-
-.about-me {
-    background: #99D930;
-    min-width: 100%;
-    padding: 100px 0;
-}
-
-.articles {
-    background: #131313;
-padding: 100px 0;
-}
-
-
 .bold-text {
     font-weight: 900;
     display: block;
@@ -72,4 +50,20 @@ a:focus {
 
 .small-text {
     font-size: 16px;
+}
+
+
+.container {
+    width: 570px;
+    margin: 0 auto;
+}
+
+.common {
+    padding: 100px 0;
+}
+
+
+.inverse {
+    background: #252525;
+    color: #fff;
 }
