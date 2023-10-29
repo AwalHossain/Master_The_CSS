@@ -5,14 +5,29 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     box-sizing: border-box;
-    background-color: beige;
+    background-color: #EDEDED;
 }
 
 .container{
     width: 375px;
     margin: 0 auto;
-    background: #FFF;
+    background: #EDEDED;
     
+}
+
+.header-container{
+    background: #FFF
+}
+
+.card{
+    width: 100%;
+    margin-bottom: 25px;
+    /* border-top: 1px solid #C6C6C6; */
+    /* border-radius: 3px; */
+    background-color: #FFF;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.0975);
+    overflow: hidden;
+    flex-shrink: 0;
 }
 
 .header-container{
@@ -69,13 +84,14 @@ body{
     width: 375px;
     height: 375px;
     object-fit: cover;
+    margin-bottom: 21px;
 }
 
 .post-actions{
     display: flex;
     justify-content: space-between;
     gap: 15px;
-    padding: 10px 10px ;
+    padding: 0 10px ;
     flex-shrink: 0;
 }
 
@@ -85,10 +101,11 @@ body{
     height: 24px;
     fill: #000;
     object-fit: cover;
+    padding: 0 5px;
 }
 
 .post-description {
-    padding: 12px 10px;
+    padding: 0 10px;
 }
 
 .like{
