@@ -1,0 +1,108 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+.container{
+    width: 375px;
+    margin: 0 auto;
+    background: #FFF;
+    
+}
+
+.header-container{
+    display: flex;
+    padding: 16px 16px 17px 15px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 183px;
+    flex-shrink: 0;
+    border-bottom: 1px solid #C6C6C6;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.logo{
+    width: 130px;
+    height: 33px;
+     fill: #000;
+     object-fit: cover;
+}
+
+.profile{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 10px;
+}
+
+.profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-desc h3{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+    color: #000;
+}
+
+.profile-desc p{
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+    color: #000;
+}
+
+.post-img {
+    width: 375px;
+    height: 375px;
+    object-fit: cover;
+}
+
+.post-actions{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 10px 10px ;
+    flex-shrink: 0;
+}
+
+.left-icon img,
+.right-icon img{
+    width: 24px;
+    height: 24px;
+    fill: #000;
+    object-fit: cover;
+}
+
+.post-description {
+    padding: 12px 10px;
+}
+
+.like{
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
+.caption{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+.caption .bold{
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
