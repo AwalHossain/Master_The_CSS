@@ -7,16 +7,17 @@ body {
     padding: 0;
 }
 
-.bold-text {
+.accent-text {
     font-weight: 900;
     display: block;
+    color: #99D930;
 }
 
-h1 .bold-text {
+h1 .accent-text {
     font-size: 80px;
 }
 
-h2 .bold-text {
+h2 .accent-text {
     font-size: 60px;
 }
 
@@ -27,12 +28,11 @@ h2 .bold-text {
 h1,
 h2 {
     font-weight: 300;
-    margin-bottom: 0;
+    margin-top: 0;
 }
 
 h1 {
     font-size: 60px;
-    margin-top: 0;
 }
 
 h2 {
@@ -91,5 +91,11 @@ a:focus {
 .btn:hover,
 .btn:focus{
     background-color: #252525;
+    color: #fff;
+}
+
+article .btn:hover,
+.btn:focus{
+    background-color: #cf0f0f;
     color: #fff;
 }
