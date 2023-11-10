@@ -4,6 +4,15 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+h1{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 30px 25px
+
+}
+
+
+
 /*
 Challenge:
 1. Get this layout looking like the 
